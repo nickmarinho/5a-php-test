@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae4e9977fd3a673ee9bd72876780eeec",
+    "content-hash": "ade351a846e4d4a8e8558a0054d197c9",
     "packages": [
         {
             "name": "appzcoder/crud-generator",
@@ -66,6 +66,59 @@
                 "laravel crud generator"
             ],
             "time": "2018-03-31T06:29:14+00:00"
+        },
+        {
+            "name": "appzcoder/laravel-admin",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/appzcoder/laravel-admin.git",
+                "reference": "43bb8f97d0557ce98f4efa4a95f95319b64802ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/appzcoder/laravel-admin/zipball/43bb8f97d0557ce98f4efa4a95f95319b64802ae",
+                "reference": "43bb8f97d0557ce98f4efa4a95f95319b64802ae",
+                "shasum": ""
+            },
+            "require": {
+                "appzcoder/crud-generator": "^3.0",
+                "illuminate/support": "^5.1",
+                "laravelcollective/html": "~5.1",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Appzcoder\\LaravelAdmin\\LaravelAdminServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Appzcoder\\LaravelAdmin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sohel Amin",
+                    "email": "sohelamincse@gmail.com",
+                    "homepage": "http://www.appzcoder.com"
+                }
+            ],
+            "description": "Laravel Admin Panel",
+            "keywords": [
+                "admin",
+                "laravel",
+                "laravel admin",
+                "laravel admin panel"
+            ],
+            "time": "2018-03-06T18:16:26+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
